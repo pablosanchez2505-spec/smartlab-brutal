@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+body {
+  @apply bg-paper font-mono text-ink antialiased;
+}
+::selection { background: #d4ff00; color: #0a0a0a; }
+:focus-visible { outline: 4px solid #3d7bff; outline-offset: 3px; }
